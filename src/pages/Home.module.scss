@@ -1,0 +1,28 @@
+.Home {
+    height: 70%;
+    width: 70%;
+    overflow: scroll;
+    margin: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: 70px;
+
+    a {
+        cursor: pointer;
+        background-color: rgb(219, 218, 218);
+        display: flex;
+        justify-content: center;
+        border-radius: 25px;
+        align-items: center;
+        text-decoration: none;
+        padding: 5px 10px;
+        word-wrap: break-word;
+        word-break: break-all;
+        color: black;
+        &:hover {
+            background-color: rgb(190, 190, 190);
+        }
+    }
+}

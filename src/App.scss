@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    .App {
+        height: 100%;
+        // border: 1px solid saddlebrown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .spinner {
+            height: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
